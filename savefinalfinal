@@ -1,0 +1,672 @@
+body{
+    background-color: black;
+}
+
+/*Display youtube logo and text inline */
+
+.youtube-logo-inline{
+    display:inline-block;
+    margin-right:0px;
+    margin-top:10px;
+    margin-bottom:0px;
+    margin-left:0px;
+}
+
+/* Youtube logo and text*/
+
+.youtube-logo{
+    display:flex;
+    margin-top:20px;
+}
+
+.youtube-logo img{
+    margin-right:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-left:0px;
+    width:40px;
+    height:40px;
+}
+
+.youtube-logo p{
+    color:white;
+    font-size:18px;
+    font-family:Arial;
+    margin-right:0px;
+    margin-top:10px;
+    margin-bottom:0px;
+    margin-left:0px;
+    
+}
+
+/*Search tab top navigation */
+
+.search-tab{
+    color:#808080;
+    background-color: black;
+    
+    width:600px;
+    height:35px;
+    
+    border:solid;
+    border-radius:30px;
+    border-width: 1px;
+    border-color:#808080;
+    
+    text-indent: 10px;
+    font-size:16px;
+    
+    margin-right:0px;
+    margin-top:27px;
+    margin-bottom:50px;
+    margin-left:200px;
+}
+
+/*Container for button for inline block display */
+
+.button-inline{
+    display:inline-block;
+    margin-right:0px;
+    margin-top:23px;
+    margin-bottom:0px;
+    margin-left:5px;
+}
+
+/* Sign in button top navigation */
+
+.sign-in-button{
+    display:flex;
+    height:40px;
+    
+    background-color: transparent;
+    color:#078CCE;
+    
+    font-weight: bold;
+    font-size:14px;
+    
+    border:solid 1px #078CCE;
+    border-radius: 25px;
+    
+}
+
+.sign-in-button p{
+    margin-top:10px;
+    margin-right:8px;
+    margin-bottom:10px;
+    margin-left:10px;
+    color:#078CCE;
+}
+
+.sign-in-button img{
+    margin-top:2px;
+    
+}
+
+.sign-in-button:hover{
+    background-color: #0c6197;
+}
+
+/* Spacing for elements in top navigation */
+
+#menu{
+    margin-right:20px;
+    margin-top:0px;
+    margin-bottom:5px;
+    margin-left:15px;
+}
+
+#mic{
+    width:37px;
+    height:32px;
+    
+    margin-right:200px;
+    margin-top:29px;
+    margin-bottom:0px;
+    margin-left:10px;
+    
+    border:solid 1px #808080;
+    border-radius: 50px;
+}
+
+#dots{
+    width:30px;
+    height:30px;
+    
+    margin-right:0px;
+    margin-top:30px;
+    margin-bottom:0px;
+    margin-left:0px;
+}
+
+
+.top-navigation{
+    display:flex;
+}
+
+/* Left Navigation */
+
+.left-navigation{
+    overflow:hidden;
+    font-size:16px;
+    font-family:Arial;
+    width:230px;
+    height:700px;
+    color:white;
+    border:0px;
+    display:inline-block;
+    padding-right:50px;
+}
+
+.left-navigation:hover{
+    overflow:scroll;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+.left-tab-button{
+    display:flex;
+    width:200px;
+    background-color:transparent;
+    border:0px;
+    color:white;
+}
+
+.left-tab-button:hover{
+    background-color:#575757;
+    border:0px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.left-tab-button img{
+    margin-left:9px;
+    margin-right:25px;
+    margin-top:5px;
+    width:30px;
+    height:30px;
+}
+
+.section p{
+    margin-left:18px;
+    font-size:16px;
+}
+
+.section button{
+    margin-left:20px;
+}
+
+
+
+
+/* Videos section*/
+
+.videos{
+    display:flex;
+    border:0px;
+}
+
+.vid{
+    margin-right:20px;
+    margin-bottom:40px;
+}
+
+.vid img{
+    width:350px;
+    border-radius: 4%;
+    border:0px;
+}
+
+.account-title{
+    display:flex;
+    margin-bottom:0px;
+}
+
+.account-title img{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    margin-right:10px;
+    margin-top:10px;
+}
+
+.account-title p{
+    font-weight:bold;
+    color:white;
+    font-family:Arial;
+    width:250px;
+    font-size:14px;
+    margin-bottom:5px;
+}
+
+.video-metadata{
+    
+    font-size:12px;
+    font-family:Arial;
+    
+    color:#999999;
+
+    margin-left:48px;
+    margin-right:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+.username{
+    margin-top:0px;
+    margin-bottom:5px;
+}
+
+.views{
+    margin-top:0px;
+}
+
+/* Left Nav and Videos */
+
+.left-navigation-and-videos{
+    display:flex;
+    border:0px;
+}
+
+.videorows{
+    display:flex;
+    flex-direction: column;
+}
+
+
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        
+        <link rel="stylesheet" href="style2.css">
+        <title> Youtube </title>
+    
+    </head>
+    
+    <body>
+        
+        <!-- Top Navigation Tab -->
+        
+        <div class="top-navigation">
+            
+            <div class="menulogo">
+            
+                <img src="icons/menu.png" id="menu">
+
+                <div class="youtube-logo-inline">
+
+                    <div class="youtube-logo">
+
+                        <img src="icons/ytlogo.png">
+
+                        <p> YouTube </p>
+
+                    </div>
+
+                </div>
+                
+            </div>
+            
+            <input type="text" class="search-tab" placeholder="Search" id="search">
+            
+            <img src="icons/microphoneicon.png" id="mic">
+            
+            <img src="icons/dotsicon.png" id="dots">
+            
+            <div class="button-inline">
+            
+                <button class="sign-in-button"> 
+
+                    <img src="icons/account.png">
+                    <p id="top-navigation-item"> Sign in </p>
+
+
+                </button>
+                
+            </div>
+        
+        </div>  
+        
+        <div class="left-navigation-and-videos">
+            
+            <div class="left-navigation">
+            
+            <button class="left-tab-button">
+                
+                <img src="icons/homeicon.png">
+                <p> Home </p>
+            
+            </button>
+            
+            
+            <button class="left-tab-button">
+                
+                <img src="icons/shortsicon.png">
+                <p> Shorts </p>
+            
+            </button>
+            
+            
+            <button class="left-tab-button">
+                
+                <img src="icons/subscriptionsicon.png">
+                <p> Subscriptions </p>
+            
+            </button>
+            
+            
+            
+            
+            <hr>
+            
+            
+            
+            
+            
+            <button class="left-tab-button">
+                
+                <img src="icons/libraryicon.png">
+                <p> Library </p>
+            
+            </button>
+            
+            <button class="left-tab-button">
+                
+                <img src="icons/historyicon.png">
+                <p> History </p>
+            
+            </button>
+            
+            
+            <hr>
+            
+            <div class="section">
+                
+                <p>Sign in to like videos, comment and subscribe.</p>
+                
+                <button class="sign-in-button"> 
+                    <img src="icons/account.png">
+                    <p> Sign in </p>
+                </button>
+            
+            </div>
+            
+            
+            
+            <hr style="margin-top:15px;">
+            
+            
+                
+            <p style="margin-left:10px;"> Explore </p>
+            
+            <button class="left-tab-button">
+                
+                <img src="icons/trendingicon.png">
+                <p> Trending </p>
+            
+            </button>
+                
+            <button class="left-tab-button">
+                
+                <img src="icons/musicicon.png">
+                <p> Music </p>
+            
+            </button>
+                
+            <button class="left-tab-button">
+                
+                <img src="icons/gamingicon.png">
+                <p> Gaming </p>
+            
+            </button>
+                
+            <button class="left-tab-button">
+                
+                <img src="icons/trophyicon.png">
+                <p> Sport </p>
+            
+            </button>
+            
+            
+                
+            <hr>
+            
+            
+            
+                
+            <button class="left-tab-button">
+                
+                <img src="icons/browse.png">
+                <p> Browse channels </p>
+            
+            </button>
+            
+            
+            
+            <hr>
+            
+            
+            
+            <button class="left-tab-button">
+                
+                <img src="icons/ytlogo.png">
+                <p> Youtube Premium </p>
+            
+            </button>
+            
+            <button class="left-tab-button">
+                
+                <img src="icons/ytmusic.png">
+                <p> Youtube Music </p>
+            
+            </button>
+            
+            <button class="left-tab-button">
+                
+                <img src="icons/kids.png">
+                <p> Youtube Kids </p>
+            
+            </button>
+            
+            
+         
+        </div>
+            
+            
+        <div class="videorows">
+            
+            
+            <div class="videos">
+            
+            
+                <div class="vid">
+            
+                    <img src="thumbnails/vid1.webp">
+
+                    <div class="account-title">
+
+                            <img src="profile/icon1.jpeg">
+
+                            <p> jazz/lofi hip hop radio🌱chill beats to relax/study to LIVE 24/7</p>
+
+                    </div>
+                
+                    <div class="video-metadata">
+
+                        <p class="username"> Abao in Tokyo </p>
+
+                        <p class="views"> 1.3K watching </p>
+
+                    </div>
+            
+                </div>
+            
+            
+                <div class="vid">
+                
+                
+                    <img src="thumbnails/vid1.webp">
+                
+                    <div class="account-title">
+                        
+                        <img src="profile/icon1.jpeg">
+                        
+                        <p> jazz/lofi hip hop radio🌱chill beats to relax/study to LIVE 24/7</p>
+                        
+                    </div>
+                
+                    <div class="video-metadata">
+                    
+                        <p class="username"> Abao in Tokyo </p>
+
+                        <p class="views"> 1.3K watching </p>
+  
+                    </div>
+            
+                </div>
+                
+            
+                <div class="vid">
+                
+                
+                    <img src="thumbnails/vid1.webp">
+                
+                    <div class="account-title">
+                        
+                        <img src="profile/icon1.jpeg">
+                        
+                        <p> jazz/lofi hip hop radio🌱chill beats to relax/study to &lsqb; LIVE 24/7 &rsqb;</p>
+                        
+                    </div>
+                
+                    <div class="video-metadata">
+                    
+                        <p class="username"> Abao in Tokyo </p>
+
+                        <p class="views"> 1.3K watching </p>
+  
+                    </div>
+            
+            
+                </div>
+            
+        
+            </div>
+            
+            
+            <div class="videos">
+            
+            
+                <div class="vid">
+            
+                    <img src="thumbnails/vid1.webp">
+
+                    <div class="account-title">
+
+                            <img src="profile/icon1.jpeg">
+
+                            <p> jazz/lofi hip hop radio🌱chill beats to relax/study to LIVE 24/7</p>
+
+                    </div>
+                
+                    <div class="video-metadata">
+
+                        <p class="username"> Abao in Tokyo </p>
+
+                        <p class="views"> 1.3K watching </p>
+
+                    </div>
+            
+                </div>
+            
+            
+                <div class="vid">
+                
+                
+                    <img src="thumbnails/vid1.webp">
+                
+                    <div class="account-title">
+                        
+                        <img src="profile/icon1.jpeg">
+                        
+                        <p> jazz/lofi hip hop radio🌱chill beats to relax/study to LIVE 24/7</p>
+                        
+                    </div>
+                
+                    <div class="video-metadata">
+                    
+                        <p class="username"> Abao in Tokyo </p>
+
+                        <p class="views"> 1.3K watching </p>
+  
+                    </div>
+            
+                </div>
+                
+            
+                <div class="vid">
+                
+                
+                    <img src="thumbnails/vid1.webp">
+                
+                    <div class="account-title">
+                        
+                        <img src="profile/icon1.jpeg">
+                        
+                        <p> jazz/lofi hip hop radio🌱chill beats to relax/study to &lsqb; LIVE 24/7 &rsqb;</p>
+                        
+                    </div>
+                
+                    <div class="video-metadata">
+                    
+                        <p class="username"> Abao in Tokyo </p>
+
+                        <p class="views"> 1.3K watching </p>
+  
+                    </div>
+            
+            
+                </div>
+            
+        
+            </div>
+            
+            
+       
+            
+        </div>
+        
+        
+        
+        
+        
+        </div>
+        
+        
+        
+        
+        
+    </body>
+</html>s

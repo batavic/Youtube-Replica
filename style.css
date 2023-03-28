@@ -1,0 +1,329 @@
+body{
+    background-color: black;
+}
+
+/*Display youtube logo and text inline */
+
+.youtube-logo-inline{
+    display:inline-block;
+    margin-right:0px;
+    margin-top:10px;
+    margin-bottom:0px;
+    margin-left:0px;
+}
+
+/* Youtube logo and text*/
+
+.youtube-logo{
+    display:flex;
+    margin-top:20px;
+}
+
+.youtube-logo img{
+    margin-right:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-left:0px;
+    width:40px;
+    height:40px;
+}
+
+.youtube-logo p{
+    color:white;
+    font-size:18px;
+    font-family:Arial;
+    margin-right:0px;
+    margin-top:10px;
+    margin-bottom:0px;
+    margin-left:0px;
+    
+}
+
+/*Search tab top navigation */
+
+.search-tab{
+    color:#808080;
+    background-color: black;
+    
+    width:600px;
+    height:35px;
+    
+    border:solid;
+    border-radius:30px;
+    border-width: 1px;
+    border-color:#808080;
+    
+    text-indent: 10px;
+    font-size:16px;
+    
+    margin-right:0px;
+    margin-top:27px;
+    margin-bottom:50px;
+    margin-left:200px;
+}
+
+/*Container for button for inline block display */
+
+.button-inline{
+    display:inline-block;
+    margin-right:0px;
+    margin-top:23px;
+    margin-bottom:0px;
+    margin-left:5px;
+}
+
+/* Sign in button top navigation */
+
+.sign-in-button{
+    display:flex;
+    height:40px;
+    
+    background-color: transparent;
+    color:#078CCE;
+    
+    font-weight: bold;
+    font-size:14px;
+    
+    border:solid 1px #078CCE;
+    border-radius: 25px;
+    
+    transition: background-color 0.5s;
+    
+}
+
+.sign-in-button p{
+    margin-top:10px;
+    margin-right:8px;
+    margin-bottom:10px;
+    margin-left:10px;
+    color:#078CCE;
+}
+
+.sign-in-button img{
+    margin-top:2px;
+    
+}
+
+.sign-in-button:hover{
+    background-color: #0c6197;
+    cursor:pointer;
+}
+
+/* Spacing for elements in top navigation */
+
+#menu{
+    margin-right:20px;
+    margin-top:0px;
+    margin-bottom:5px;
+    margin-left:15px;
+}
+
+#mic{
+    width:37px;
+    height:32px;
+    
+    margin-right:200px;
+    margin-top:29px;
+    margin-bottom:0px;
+    margin-left:10px;
+    
+    border:solid 1px #808080;
+    border-radius: 50px;
+}
+
+#dots{
+    width:30px;
+    height:30px;
+    
+    margin-right:0px;
+    margin-top:30px;
+    margin-bottom:0px;
+    margin-left:0px;
+}
+
+
+.top-navigation{
+    display:flex;
+}
+
+/* Left Navigation */
+
+.left-navigation{
+    overflow:hidden;
+    font-size:16px;
+    font-family:Arial;
+    width:230px;
+    height:700px;
+    color:white;
+    border:0px;
+    display:inline-block;
+    padding-right:50px;
+}
+
+.left-navigation:hover{
+    overflow:scroll;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+.left-tab-button{
+    display:flex;
+    width:200px;
+    background-color:transparent;
+    border:0px;
+    color:white;
+    transition: background-color 0.2s;
+}
+
+.left-tab-button:hover{
+    background-color:#575757;
+    border:0px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.left-tab-button img{
+    margin-left:9px;
+    margin-right:25px;
+    margin-top:5px;
+    width:30px;
+    height:30px;
+}
+
+.section p{
+    margin-left:18px;
+    font-size:16px;
+}
+
+.section button{
+    margin-left:20px;
+}
+
+
+
+
+/* Videos section*/
+
+.videos{
+    display:flex;
+    border:0px;
+}
+
+.vid{
+    margin-right:20px;
+    margin-bottom:40px;
+}
+
+.vid img{
+    width:350px;
+    border-radius: 4%;
+    border:0px;
+}
+
+.account-title{
+    display:flex;
+    margin-bottom:0px;
+}
+
+.account-title img{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    margin-right:10px;
+    margin-top:10px;
+}
+
+.account-title p{
+    font-weight:bold;
+    color:white;
+    font-family:Arial;
+    width:250px;
+    font-size:14px;
+    margin-bottom:5px;
+}
+
+.video-metadata{
+    
+    font-size:12px;
+    font-family:Arial;
+    
+    color:#999999;
+
+    margin-left:48px;
+    margin-right:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+.username{
+    margin-top:0px;
+    margin-bottom:5px;
+}
+
+.views{
+    margin-top:0px;
+}
+
+/* Left Nav and Videos */
+
+.left-navigation-and-videos{
+    display:flex;
+    border:0px;
+}
+
+.videorows{
+    display:flex;
+    flex-direction: column;
+}
+
+.genre-navigation{
+    display:flex;
+    margin-bottom:10px;
+}
+
+.genre{
+    
+    background-color:#282828;
+    color:white;
+                
+    border-radius:4px;
+    border:0px;
+                
+    font-family:Arial;
+    font-size:16px;
+                
+    height:30px;
+    
+    margin-left:15px;
+    margin-bottom:15px;
+    
+    text-indent:5px;
+    
+}
+
+.genre:hover{
+    background-color:dimgray;
+    cursor:pointer;
+}
+
